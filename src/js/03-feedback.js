@@ -42,5 +42,6 @@ function toSubmit (e) {
         alert("Заполните пустые поля!");
         return;
     }
+    formRef.reset();
     console.log({email, message});
 }
